@@ -14,6 +14,6 @@ public class Ejercicio1 {
         System.out.print("El resutlado del apartado b es: ");
         System.out.println(Math.pow((2+ a*b)/4,c+2));
         System.out.print("El resultado del apartado c es: ");
-        System.out.println((-b + Math.sqrt(Math.pow(b,2) - 4*a*c))/(2*a));
+        System.out.println((-b + Math.pow((Math.pow(b,2) - 4 * a * c),-2))/(2*a));
     }
 }
